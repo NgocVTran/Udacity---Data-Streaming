@@ -35,7 +35,7 @@ Create an Streaming application with Spark that connects to a Kafka cluster, rea
     Run `python consumer_server.py`
     
     Output:
-    <img src='sf_consumer_server_output.PNG'/>
+    <img src='img_consumer_server.png'/>
 
 6. Spark job:
     Run `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.11:2.3.4 --master local[*] data_stream.py`
